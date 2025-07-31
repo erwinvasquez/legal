@@ -1,0 +1,7 @@
+node_modules/
+.env
+.env.*  # esto incluye .env.local, .env.production, etc.
+.env.local
+dist/
+.next/
+scripts/

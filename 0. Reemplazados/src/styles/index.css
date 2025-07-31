@@ -1,0 +1,14 @@
+/* Importar el tema unificado */
+@import "./themes/unified.css";
+
+/* Importar variables de layout, tipografía y componentes */
+@import "./variables/layout.css";
+@import "./variables/typography.css";
+@import "./variables/components.css";
+@import "./variables/animations.css";
+
+/* Importar animaciones */
+@import "./animations/scroll-animations.css";
+
+/* Importar tokens de animación */
+@import "./tokens/animation-tokens.css";

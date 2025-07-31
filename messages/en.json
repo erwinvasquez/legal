@@ -1,0 +1,343 @@
+{
+  "Schema": {
+    "availableLanguage": "English",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+591 - 78457304",
+      "contactType": "customer service",
+      "areaServed": "BO",
+      "availableLanguage": "English"
+    },
+    "mainEntityOfPage": {
+      "@type": "Organization",
+      "name": "GreenEnergy Bolivia",
+      "url": "https://greenenergy.com.bo",
+      "logo": "https://greenenergy.com.bo/logo.png",
+      "sameAs": [
+        "https://www.facebook.com/greenenergybo",
+        "https://www.instagram.com/greenenergybo"
+      ]
+    },
+    "product": {
+      "@type": "Product",
+      "name": "Solar Panel",
+      "description": "High-efficiency solar panel for residential and commercial applications.",
+      "brand": "GreenEnergy",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://greenenergy.com.bo/panel-solar-300w",
+        "priceCurrency": "BOB",
+        "price": "1000",
+        "priceValidUntil": "2024-12-31"
+      }
+    },
+    "breadcrumbs": {
+      "home": "Home"
+    },
+    "dates": {
+      "sitePublished": "2023-01-01T00:00:00Z",
+      "lastModified": "Last updated"
+    }
+  },
+  "Metadata": {
+    "title": "Renewable Energy and Sustainable Solutions - GreenEnergy Bolivia",
+    "description": "GreenEnergy provides renewable energy solutions, solar, wind energy, and energy efficiency for homes and businesses in Bolivia. Join the green revolution and reduce your carbon footprint.",
+    "keywords": "renewable energy, solar energy, wind energy, energy efficiency, sustainable solutions, Bolivia",
+    "author": "GreenEnergy Bolivia",
+    "publisher": "GreenEnergy Bolivia",
+    "robots": "index, follow",
+    "og:title": "Renewable Energy and Sustainable Solutions - GreenEnergy Bolivia",
+    "og:description": "GreenEnergy provides renewable energy solutions, solar, wind energy, and energy efficiency for homes and businesses in Bolivia.",
+    "og:image": "https://greenenergy.com.bo/images/og-image.png",
+    "og:url": "https://greenenergy.com.bo",
+    "siteName": "GreenEnergy Bolivia",
+    "locale": "en_US"
+  },
+  "Navbar": {
+    "home": "Home",
+    "products": "Products",
+    "account": "Account",
+    "cart": "Cart",
+    "contact": "Contact",
+    "quote": "Quote",
+    "projects": "Projects",
+    "services": "Services",
+    "about-us": "About Us",
+    "technology": "Technology",
+    "calculadora": "Quote",
+    "admin": "Admin"
+  },
+  "Sections": {
+    "home": "Home",
+    "about-us": "About Us",
+    "future-energy": "Benefits",
+    "solutions": "Solutions",
+    "sectors": "Sectors",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "quote": "Quote"
+  },
+  "Pages": {
+    "products": "Products",
+    "quote": "Quote",
+    "about-us": "About Us",
+    "contact": "Contact",
+    "technology": "Technology",
+    "calculadora": "Quote",
+    "admin": "Admin"
+  },
+ "Home": {
+    "hero": {
+      "title": "Transform your medical documentation into clear and automated legal arguments",
+      "subtitle": "The artificial intelligence platform created for law firms that litigate personal injury cases.",
+      "description": "Organize, interpret and draft for you — in minutes, not hours.",
+      "primaryButton": "Request free access",
+      "secondaryButton": "See how it works"
+    },
+    "problems": {
+      "title": "Does this sound familiar? This is what slows down your legal team every week.",
+      "subtitle": "Millions in compensation are delayed (or lost) due to avoidable errors that this platform eliminates.",
+      "card1": {
+        "title": "📁 Disorganized documents → Cause of legal errors",
+        "description": "PDFs, prescriptions and notes arrive by email, WhatsApp or scans. Losing a single document can dismantle your strategy."
+      },
+      "card2": {
+        "title": "⏰ Hours searching for data → Lost billable time",
+        "description": "What was prescribed? When was the patient seen? Which exam was done first? Every search costs money and delays cases."
+      },
+      "card3": {
+        "title": "⚠️ Manual errors → Weakened legal arguments",
+        "description": "Misinterpreted dates, omitted medications, or incorrect medical sequences can destroy a solid case."
+      },
+      "card4": {
+        "title": "📉 Inefficient processes → Lost cases and revenue",
+        "description": "While you organize documents manually, competitors with AI are closing cases faster and with better results."
+      }
+    },
+    "steps": {
+      "title": "Real legal automation from the first click",
+      "mockupAlt": "Legal document being generated automatically",
+      "step1": {
+        "title": "Upload everything without worrying about format",
+        "description": "Disorganized PDFs, prescription photos or medical reports:",
+        "detail": "The platform classifies and reads them for you. No manual sorting, no lost files. Everything is automatically organized and ready to analyze."
+      },
+      "step2": {
+        "title": "Ask the AI what you need",
+        "description": "Questions in natural language, with precise answers:",
+        "detail": "\"What did the doctor prescribe on the day of the accident?\" \"How many studies were done in the first week?\" Get instant answers linked to the original document."
+      },
+      "step3": {
+        "title": "Download medical or legal letters ready to send",
+        "description": "Editable, complete and with all information already analyzed:",
+        "detail": "Hospital requests, medical reports, or legal initiation letters. Everything ready to sign, send, or incorporate into the lawsuit."
+      }
+    },
+    "scenarios": {
+      "title": "What your legal team can achieve in minutes (used to take hours)",
+      "subtitle": "The platform's AI replaces hours of review, drafting and searching with instant precision.",
+      "item1": {
+        "title": "📌 Generate a medical letter in 2 minutes",
+        "description": "Before: 30 minutes of manual review and drafting. Now: you select the type, and AI assembles it with your data.",
+        "timeLabel": "2 min"
+      },
+      "item2": {
+        "title": "🎯 Complete medical chronology in 5 minutes",
+        "description": "Before: Hours reviewing documents to create timeline. Now: AI automatically organizes dates, treatments, and medical evolution.",
+        "timeLabel": "5 min"
+      },
+      "item3": {
+        "title": "✅ Hospital information request in 1 minute",
+        "description": "Before: Drafting formal letters from scratch. Now: AI generates the complete request with all legal requirements.",
+        "timeLabel": "1 min"
+      },
+      "item4": {
+        "title": "⚡ Legal process initiation in 10 minutes",
+        "description": "Before: Days organizing evidence and arguments. Now: AI structures everything with medical data ready to sue.",
+        "timeLabel": "10 min"
+      },
+      "cta": {
+        "title": "Ready to transform your legal practice?",
+        "description": "Join hundreds of law firms already using AI to win more cases in less time.",
+        "primaryButton": "Start Free Trial",
+        "secondaryButton": "Schedule Demo"
+      }
+    },
+    "plans": {
+      "title": "Plans designed for law firms of all sizes",
+      "popular": "Most Popular",
+      "planInicio": {
+        "name": "Starter Plan",
+        "price": "$99/month",
+        "feature1": "100 pages/month",
+        "feature2": "1 user",
+        "feature3": "Legal medical AI",
+        "feature4": "Limited letters",
+        "feature5": "Basic support"
+      },
+      "planEstudio": {
+        "name": "Firm Plan",
+        "price": "$299/month",
+        "feature1": "500 pages/month",
+        "feature2": "Up to 3 users",
+        "feature3": "Advanced AI",
+        "feature4": "Unlimited letters",
+        "feature5": "Priority support"
+      },
+      "planLegal": {
+        "name": "Legal Max",
+        "price": "$599/month",
+        "feature1": "Unlimited pages",
+        "feature2": "10+ users",
+        "feature3": "AI + External API",
+        "feature4": "Custom letters",
+        "feature5": "Dedicated support"
+      },
+      "selectPlan": "Select Plan",
+      "compareAll": "Compare all plans"
+    },
+    "cta": {
+      "title": "Make your law firm work like a legal team augmented by AI",
+      "subtitle": "Reduce time, gain precision and focus on what matters: solving cases.",
+      "primaryButton": "Create your free account",
+      "secondaryButton": "Schedule a personalized demo"
+    }
+  },
+  "Auth": {
+    "myAccount": "My Account",
+    "login": "Login",
+    "register": "Register",
+    "name": "Name",
+    "namePlaceholder": "Enter your name",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "loginButton": "Login",
+    "registerButton": "Register",
+    "loading": "Loading...",
+    "orContinueWith": "or continue with",
+    "continueWithGoogle": "Continue with Google",
+    "noAccount": "Don't have an account?",
+    "registerNow": "Register now",
+    "alreadyHaveAccount": "Already have an account?",
+    "loginNow": "Login now",
+    "emailNotVerified": "Email not verified",
+    "manageAccount": "Manage Account",
+    "logout": "Logout"
+  },
+  "Account": {
+    "myAccount": "My Account",
+    "profileInformation": "Profile Information",
+    "name": "Name",
+    "email": "Email",
+    "accountProvider": "Account Provider",
+    "emailPassword": "Email & Password",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "saveChanges": "Save Changes",
+    "saving": "Saving...",
+    "emailCannotBeChanged": "Email address cannot be changed",
+    "notVerified": "Not Verified",
+    "accountSettings": "Account Settings",
+    "profile": "Profile",
+    "security": "Security",
+    "notifications": "Notifications",
+    "billing": "Billing",
+    "accountActivity": "Account Activity",
+    "lastLogin": "Last login"
+  },
+  "Admin": {
+    "adminPanel": "Admin",
+    "welcome": "Welcome",
+    "dashboard": "Dashboard",
+    "dashboardDesc": "View overall statistics and performance metrics",
+    "users": "Users",
+    "usersDesc": "Manage user accounts and permissions",
+    "products": "Products",
+    "productsDesc": "Add, edit, and manage product inventory",
+    "orders": "Orders",
+    "ordersDesc": "Track and manage customer orders",
+    "notifications": "Notifications",
+    "notificationsDesc": "Manage system and user notifications",
+    "settings": "Settings",
+    "settingsDesc": "Configure system and application settings",
+    "totalUsers": "Total Users",
+    "totalProducts": "Total Products",
+    "totalOrders": "Total Orders",
+    "revenue": "Revenue",
+    "lastLogin": "Last Login",
+    "needHelp": "Need Help?",
+    "helpText": "Check our documentation for detailed guides on how to use the admin panel.",
+    "viewDocs": "View Documentation"
+  },
+  "Footer": {
+    "contactUs": "Contact Us",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Business Hours",
+    "followUs": "Follow Us",
+    "solutions": "Solutions",
+    "sectors": "Sectors",
+    "company": "Company",
+    "support": "Support",
+    "allRightsReserved": "All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "contact": {
+      "address": {
+        "building": "Green Tower, office 1707, floor 17",
+        "street": "Av. San Martin street G",
+        "city": "Santa Cruz de la Sierra"
+      },
+      "phone": "+591 - 78457304",
+      "email": "greenbolivia25@gmail.com",
+      "hours": {
+        "weekdays": "Mon-Fri: 9AM-6PM",
+        "saturday": "Sat: 10AM-2PM"
+      }
+    },
+    "links": {
+      "solutions": {
+        "bipv": "BIPV Technologies",
+        "photovoltaic": "Photovoltaic Energy",
+        "wind": "Wind Energy"
+      },
+      "sectors": {
+        "residential": "Residential",
+        "commercial": "Commercial",
+        "industrial": "Industrial",
+        "public": "Public Sector"
+      },
+      "company": {
+        "about": "About Us",
+        "team": "Our Team",
+        "careers": "Careers",
+        "news": "News"
+      },
+      "support": {
+        "contact": "Contact Us",
+        "faq": "FAQ",
+        "resources": "Resources"
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,326 @@
+{
+  "Schema": {
+    "availableLanguage": "Spanish",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+591 - 78457304",
+      "contactType": "customer service",
+      "areaServed": "BO",
+      "availableLanguage": "Spanish"
+    },
+    "mainEntityOfPage": {
+      "@type": "Organization",
+      "name": "GreenEnergy Bolivia",
+      "url": "https://greenenergy.com.bo",
+      "logo": "https://greenenergy.com.bo/logo.png",
+      "sameAs": [
+        "https://www.facebook.com/greenenergybo",
+        "https://www.instagram.com/greenenergybo"
+      ]
+    },
+    "product": {
+      "@type": "Product",
+      "name": "Panel Solar",
+      "description": "Panel solar de alta eficiencia para aplicaciones residenciales y comerciales.",
+      "brand": "GreenEnergy",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://greenenergy.com.bo/panel-solar-300w",
+        "priceCurrency": "BOB",
+        "price": "1000",
+        "priceValidUntil": "2024-12-31"
+      }
+    },
+    "breadcrumbs": {
+      "home": "Inicio"
+    },
+    "dates": {
+      "sitePublished": "2023-01-01T00:00:00Z",
+      "lastModified": "Última actualización"
+    }
+  },
+  "Metadata": {
+    "title": "Energía Renovable y Soluciones Sostenibles - GreenEnergy Bolivia",
+    "description": "GreenEnergy ofrece soluciones de energía renovable, energía solar, energía eólica y eficiencia energética para hogares y empresas en Bolivia. Únete a la revolución verde y reduce tu huella de carbono.",
+    "keywords": "energía renovable, energía solar, energía eólica, eficiencia energética, soluciones sostenibles, Bolivia",
+    "author": "GreenEnergy Bolivia",
+    "publisher": "GreenEnergy Bolivia",
+    "robots": "index, follow",
+    "og:title": "Energía Renovable y Soluciones Sostenibles - GreenEnergy Bolivia",
+    "og:description": "GreenEnergy ofrece soluciones de energía renovable, energía solar, energía eólica y eficiencia energética para hogares y empresas en Bolivia.",
+    "og:image": "https://greenenergy.com.bo/images/og-image.png",
+    "og:url": "https://greenenergy.com.bo",
+    "siteName": "GreenEnergy Bolivia",
+    "locale": "es_BO"
+  },
+  "Navbar": {
+    "home": "Inicio",
+    "products": "Productos",
+    "account": "Cuenta",
+    "cart": "Carrito",
+    "contact": "Contacto",
+    "quote": "Cotizador",
+    "projects": "Proyectos",
+    "services": "Servicios",
+    "about-us": "Nosotros",
+    "technology": "Tecnología",
+    "calculadora": "Cotizador",
+    "admin": "Administración"
+  },
+  "Sections": {
+    "home": "Inicio",
+    "about-us": "Nosotros",
+    "future-energy": "Beneficios",
+    "solutions": "Soluciones",
+    "sectors": "Sectores",
+    "pricing": "Precios",
+    "contact": "Contacto",
+    "quote": "Cotizador"
+  },
+  "Pages": {
+    "products": "Productos",
+    "quote": "Calcular",
+    "about-us": "Nosotros",
+    "contact": "Contacto",
+    "technology": "Tecnología",
+    "calculadora": "Cotizador",
+    "admin": "Administración"
+  },
+ "Home": {
+    "hero": {
+      "title": "Convierte tu documentación médica en argumentos legales claros y automatizados",
+      "subtitle": "La plataforma de inteligencia artificial creada para estudios jurídicos que litigan casos de lesiones personales.",
+      "description": "Organiza, interpreta y redacta por ti — en minutos, no en horas.",
+      "primaryButton": "Solicita acceso gratuito",
+      "secondaryButton": "Ver cómo funciona"
+    },
+    "problems": {
+      "title": "¿Te resulta familiar? Esto es lo que frena a tu equipo legal cada semana.",
+      "subtitle": "Millones en indemnizaciones se demoran (o se pierden) por errores evitables que esta plataforma elimina.",
+      "card1": {
+        "title": "📁 Documentos desordenados → Causa de errores legales",
+        "description": "PDFs, recetas y notas llegan por correo, WhatsApp o escaneos. Perder un solo documento puede desarmar tu estrategia."
+      },
+      "card2": {
+        "title": "⏰ Horas buscando datos → Tiempo facturable perdido",
+        "description": "¿Qué recetaron? ¿Cuándo se atendió? ¿Qué examen se hizo primero? Cada búsqueda cuesta dinero y retrasa casos."
+      },
+      "card3": {
+        "title": "⚠️ Errores manuales → Argumentos legales debilitados",
+        "description": "Fechas mal interpretadas, medicamentos omitidos o secuencias médicas incorrectas pueden destruir un caso sólido."
+      },
+      "card4": {
+        "title": "📉 Procesos ineficientes → Casos y ingresos perdidos",
+        "description": "Mientras organizas documentos manualmente, competidores con IA están cerrando casos más rápido y con mejores resultados."
+      }
+    },
+    "steps": {
+      "title": "Automatización legal real desde el primer clic",
+      "mockupAlt": "Documento legal siendo generado automáticamente",
+      "step1": {
+        "title": "Subí todo sin preocuparte por el formato",
+        "description": "PDFs desordenados, fotos de recetas o informes médicos:",
+        "detail": "La plataforma los clasifica y lee por vos. Sin ordenamiento manual, sin archivos perdidos. Todo se organiza automáticamente y queda listo para analizar."
+      },
+      "step2": {
+        "title": "Pedile a la IA lo que necesitás",
+        "description": "Preguntas en lenguaje natural, con respuestas precisas:",
+        "detail": "\"¿Qué recetó el médico el día del accidente?\" \"¿Cuántos estudios se hicieron en la primera semana?\" Obtené respuestas instantáneas vinculadas al documento original."
+      },
+      "step3": {
+        "title": "Descargá cartas médicas o legales listas para enviar",
+        "description": "Editables, completas y con toda la información ya analizada:",
+        "detail": "Solicitudes a hospitales, informes médicos o cartas de inicio legal. Todo listo para firmar, enviar o incorporar en la demanda."
+      }
+    },
+   "scenarios": {
+      "title": "Lo que tu equipo legal puede lograr en minutos (antes tomaba horas)",
+      "subtitle": "La IA de la plataforma reemplaza horas de revisión, redacción y búsqueda con precisión instantánea.",
+      "item1": {
+        "title": "📌 Generar una carta médica en 2 minutos",
+        "description": "Antes: 30 minutos de revisión y redacción manual. Ahora: seleccionás tipo, y la IA la arma con tus datos.",
+        "timeLabel": "2 min"
+      },
+      "item2": {
+        "title": "🎯 Cronología médica completa en 5 minutos",
+        "description": "Antes: Horas revisando documentos para crear línea de tiempo. Ahora: IA organiza automáticamente fechas, tratamientos y evolución médica.",
+        "timeLabel": "5 min"
+      },
+      "item3": {
+        "title": "✅ Solicitud de información hospitalaria en 1 minuto",
+        "description": "Antes: Redactar cartas formales desde cero. Ahora: IA genera la solicitud completa con todos los requisitos legales.",
+        "timeLabel": "1 min"
+      },
+      "item4": {
+        "title": "⚡ Inicio de proceso legal en 10 minutos",
+        "description": "Antes: Días organizando pruebas y argumentos. Ahora: IA estructura todo con datos médicos listos para demandar.",
+        "timeLabel": "10 min"
+      },
+      "cta": {
+        "title": "¿Listo para transformar tu práctica legal?",
+        "description": "Únete a cientos de estudios jurídicos que ya usan IA para ganar más casos en menos tiempo.",
+        "primaryButton": "Comenzar Prueba Gratuita",
+        "secondaryButton": "Agendar Demo"
+      }
+    },
+    "plans": {
+      "title": "Planes pensados para estudios jurídicos de todos los tamaños",
+      "popular": "Más Popular",
+      "planInicio": {
+        "name": "Plan Inicio",
+        "price": "$99/mes",
+        "feature1": "100 páginas/mes",
+        "feature2": "1 usuario",
+        "feature3": "IA médica legal",
+        "feature4": "Cartas limitadas",
+        "feature5": "Soporte básico"
+      },
+      "planEstudio": {
+        "name": "Plan Estudio",
+        "price": "$299/mes",
+        "feature1": "500 páginas/mes",
+        "feature2": "Hasta 3 usuarios",
+        "feature3": "IA avanzada",
+        "feature4": "Cartas ilimitadas",
+        "feature5": "Soporte prioritario"
+      },
+      "planLegal": {
+        "name": "Legal Max",
+        "price": "$599/mes",
+        "feature1": "Páginas ilimitadas",
+        "feature2": "10+ usuarios",
+        "feature3": "IA + API externa",
+        "feature4": "Cartas personalizadas",
+        "feature5": "Soporte dedicado"
+      },
+      "selectPlan": "Seleccionar Plan",
+      "compareAll": "Comparar todos los planes"
+    },
+    "cta": {
+      "title": "Haz que tu buffet jurídico trabaje como un equipo legal aumentado por IA",
+      "subtitle": "Reduce tiempos, gana precisión y enfócate en lo que importa: resolver casos.",
+      "primaryButton": "Crea tu cuenta gratuita",
+      "secondaryButton": "Agenda una demo personalizada"
+    }
+  },
+  "Auth": {
+    "myAccount": "Mi Cuenta",
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "name": "Nombre",
+    "namePlaceholder": "Ingresa tu nombre",
+    "email": "Correo Electrónico",
+    "emailPlaceholder": "Ingresa tu correo electrónico",
+    "password": "Contraseña",
+    "passwordPlaceholder": "Ingresa tu contraseña",
+    "loginButton": "Iniciar Sesión",
+    "registerButton": "Registrarse",
+    "loading": "Cargando...",
+    "orContinueWith": "o continuar con",
+    "continueWithGoogle": "Continuar con Google",
+    "noAccount": "¿No tienes una cuenta?",
+    "registerNow": "Regístrate ahora",
+    "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+    "loginNow": "Inicia sesión ahora",
+    "emailNotVerified": "Correo electrónico no verificado",
+    "manageAccount": "Administrar Cuenta",
+    "logout": "Cerrar Sesión"
+  },
+  "Account": {
+    "myAccount": "Mi Cuenta",
+    "profileInformation": "Información del Perfil",
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "accountProvider": "Proveedor de Cuenta",
+    "emailPassword": "Correo y Contraseña",
+    "edit": "Editar",
+    "cancel": "Cancelar",
+    "saveChanges": "Guardar Cambios",
+    "saving": "Guardando...",
+    "emailCannotBeChanged": "La dirección de correo electrónico no puede ser cambiada",
+    "notVerified": "No Verificado",
+    "accountSettings": "Configuración de la Cuenta",
+    "profile": "Perfil",
+    "security": "Seguridad",
+    "notifications": "Notificaciones",
+    "billing": "Facturación",
+    "accountActivity": "Actividad de la Cuenta",
+    "lastLogin": "Último inicio de sesión"
+  },
+  "Admin": {
+    "adminPanel": "Administrador",
+    "welcome": "Bienvenido",
+    "dashboard": "Panel de Control",
+    "dashboardDesc": "Ver estadísticas generales y métricas de rendimiento",
+    "users": "Usuarios",
+    "usersDesc": "Administrar cuentas de usuario y permisos",
+    "products": "Productos",
+    "productsDesc": "Añadir, editar y administrar inventario de productos",
+    "orders": "Pedidos",
+    "ordersDesc": "Seguir y administrar pedidos de clientes",
+    "notifications": "Notificaciones",
+    "notificationsDesc": "Administrar notificaciones del sistema y de usuarios",
+    "settings": "Configuración",
+    "settingsDesc": "Configurar ajustes del sistema y la aplicación",
+    "totalUsers": "Total de Usuarios",
+    "totalProducts": "Total de Productos",
+    "totalOrders": "Total de Pedidos",
+    "revenue": "Ingresos",
+    "lastLogin": "Último Inicio de Sesión",
+    "needHelp": "¿Necesitas Ayuda?",
+    "helpText": "Consulta nuestra documentación para guías detalladas sobre cómo usar el panel de administración.",
+    "viewDocs": "Ver Documentación"
+  },
+  "Footer": {
+    "contactUs": "Contáctanos",
+    "address": "Dirección",
+    "phone": "Teléfono",
+    "email": "Correo Electrónico",
+    "hours": "Horario de Atención",
+    "followUs": "Síguenos",
+    "solutions": "Soluciones",
+    "sectors": "Sectores",
+    "company": "Empresa",
+    "support": "Soporte",
+    "allRightsReserved": "Todos los derechos reservados.",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio",
+    "contact": {
+      "address": {
+        "building": "Green Tower, oficina 1707, piso 17",
+        "street": "Av. San Martin calle G",
+        "city": "Santa Cruz de la Sierra"
+      },
+      "phone": "+591 - 78457304",
+      "email": "greenbolivia25@gmail.com",
+      "hours": {
+        "weekdays": "Lun-Vie: 9AM-6PM",
+        "saturday": "Sáb: 10AM-2PM"
+      }
+    },
+    "links": {
+      "solutions": {
+        "bipv": "Tecnologías BIPV",
+        "photovoltaic": "Energía Fotovoltaica",
+        "wind": "Energía Eólica"
+      },
+      "sectors": {
+        "residential": "Residencial",
+        "commercial": "Comercial",
+        "industrial": "Industrial",
+        "public": "Sector Público"
+      },
+      "company": {
+        "about": "Sobre Nosotros",
+        "team": "Nuestro Equipo",
+        "careers": "Carreras",
+        "news": "Noticias"
+      },
+      "support": {
+        "contact": "Contáctanos",
+        "faq": "Preguntas Frecuentes",
+        "resources": "Recursos"
+      }
+    }
+  }
+}

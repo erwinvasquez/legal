@@ -1,0 +1,300 @@
+/* ===== TEMA UNIFICADO - VARIABLES BASE ===== */
+
+:root {
+  /* === COLORES BASE === */
+  --color-white: 0 0% 100%;
+  --color-black: 0 0% 3.9%;
+  --color-transparent: transparent;
+
+  /* === PALETA DE GRISES === */
+  --color-gray-50: 0 0% 98%;
+  --color-gray-100: 0 0% 96.1%;
+  --color-gray-200: 0 0% 93.9%;
+  --color-gray-300: 0 0% 89.8%;
+  --color-gray-400: 0 0% 83.1%;
+  --color-gray-500: 0 0% 63.9%;
+  --color-gray-600: 0 0% 45.1%;
+  --color-gray-700: 0 0% 32.2%;
+  --color-gray-800: 0 0% 14.9%;
+  --color-gray-900: 0 0% 9.6%;
+  --color-gray-950: 0 0% 3.9%;
+
+  /* === DARK-THEME GRAYS (NEUTRALIZED) === */
+  --color-gray-darkest: 220 10% 20%;
+  --color-gray-deep: 220 12% 12%;
+  --color-gray-line: 220 15% 20%;
+  --color-gray-fg: 0 0% 90%;
+
+  /* === COLORES DE MARCA === */
+  --color-forest-green: 150 63% 30%;
+  --color-forest-green-dark: 150 63% 25%;
+  --color-lime-green: 120 61% 50%;
+  --color-lime-green-dark: 120 61% 40%;
+  --color-deep-blue: 220 70% 40%;
+  --color-bone-white: 60 9% 98%;
+  --color-carbon-gray: 215 28% 17%;
+
+  /* === COLORES SEMÁNTICOS === */
+  --color-success: 142 76% 36%;
+  --color-success-dark: 142 76% 42%;
+  --color-warning: 38 92% 50%;
+  --color-warning-dark: 38 92% 60%;
+  --color-error: 0 84.2% 60.2%;
+  --color-error-dark: 0 62.8% 50%;
+  --color-info: 217 91% 60%;
+  --color-info-dark: 217 91% 70%;
+
+  /* === DIMENSIONES === */
+  --radius: 0.5rem;
+  --navbar-height: 4rem;
+  --submenu-max-height: 400px;
+
+  /* === Z-INDEX === */
+  --z-0: 0;
+  --z-10: 10;
+  --z-20: 20;
+  --z-30: 30;
+  --z-40: 40;
+  --z-50: 50;
+  --z-navbar: 30;
+  --z-submenu: 40;
+  --z-dropdown: 50;
+  --z-modal: 100;
+
+  /* === TRANSICIONES === */
+  --transition-duration: 200ms;
+  --transition-timing: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* === SOMBRAS BASE === */
+  --shadow-color: 0 0% 0%;
+  --shadow-strength: 0.05;
+
+  /* === ESPACIADO === */
+  --spacing-0: 0;
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-5: 1.25rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-10: 2.5rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+  --spacing-20: 5rem;
+  --spacing-24: 6rem;
+
+  /* === TIPOGRAFÍA === */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+  --font-size-6xl: 3.75rem;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  --line-height-none: 1;
+  --line-height-tight: 1.25;
+  --line-height-snug: 1.375;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.625;
+  --line-height-loose: 2;
+
+  --letter-spacing-tighter: -0.05em;
+  --letter-spacing-tight: -0.025em;
+  --letter-spacing-normal: 0em;
+  --letter-spacing-wide: 0.025em;
+  --letter-spacing-wider: 0.05em;
+  --letter-spacing-widest: 0.1em;
+}
+
+/* ===== TEMA CLARO (DEFAULT) ===== */
+:root,
+[data-theme="light"] {
+  /* === COLORES SEMÁNTICOS === */
+  --background: var(--color-bone-white);
+  --foreground: var(--color-carbon-gray);
+
+  --card: var(--color-white);
+  --card-foreground: var(--color-carbon-gray);
+
+  --popover: var(--color-white);
+  --popover-foreground: var(--color-carbon-gray);
+
+  --primary: var(--color-forest-green);
+  --primary-foreground: var(--color-white);
+
+  --secondary: var(--color-deep-blue);
+  --secondary-foreground: var(--color-white);
+
+  --accent: var(--color-lime-green);
+  --accent-foreground: var(--color-carbon-gray);
+
+  --muted: var(--color-gray-100);
+  --muted-foreground: var(--color-gray-600);
+
+  --destructive: var(--color-error);
+  --destructive-foreground: var(--color-white);
+
+  --success: var(--color-success);
+  --success-foreground: var(--color-white);
+
+  --warning: var(--color-warning);
+  --warning-foreground: var(--color-carbon-gray);
+
+  --info: var(--color-info);
+  --info-foreground: var(--color-white);
+
+  --border: var(--color-gray-300);
+  --input: var(--color-gray-300);
+  --ring: var(--color-forest-green);
+
+  /* === NAVBAR === */
+  --navbar-bg: var(--color-carbon-gray);
+  --navbar-text: var(--color-white);
+  --navbar-link-hover-color: var(--color-lime-green);
+  --navbar-link-active-color: var(--color-lime-green);
+  --navbar-border-color: var(--color-gray-700);
+
+  /* === SUBMENU === */
+  --submenu-bg: var(--color-carbon-gray); /* MISMO COLOR QUE NAVBAR */
+  --submenu-text: var(--color-white);
+  --submenu-text-muted: var(--color-gray-400);
+  --submenu-hover-bg: var(--color-gray-700);
+  --submenu-border-color: var(--color-gray-700);
+  --submenu-shadow: 0 10px 15px -3px hsl(var(--shadow-color) / 0.1), 0 4px 6px -4px hsl(var(--shadow-color) / 0.1);
+  --submenu-transition: all var(--transition-duration) var(--transition-timing);
+
+  /* === SOMBRAS === */
+  --shadow-strength: 0.02;
+  --shadow-sm: 0 1px 2px 0 hsl(var(--shadow-color) / var(--shadow-strength));
+  --shadow-md: 0 4px 6px -1px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 0.02)), 0 2px 4px -2px
+    hsl(var(--shadow-color) / calc(var(--shadow-strength) + 0.02));
+  --shadow-lg: 0 10px 15px -3px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 0.02)), 0 4px 6px -4px
+    hsl(var(--shadow-color) / calc(var(--shadow-strength) + 0.02));
+  --shadow-xl: 0 20px 25px -5px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 0.02)), 0 8px 10px -6px
+    hsl(var(--shadow-color) / calc(var(--shadow-strength) + 0.02));
+
+  /* === GRÁFICOS === */
+  --chart-1: 12 76% 61%;
+  --chart-2: 173 58% 39%;
+  --chart-3: 197 37% 24%;
+  --chart-4: 43 74% 66%;
+  --chart-5: 27 87% 67%;
+}
+
+/* ===== TEMA OSCURO ===== */
+.dark,
+[data-theme="dark"] {
+  /* === COLORES SEMÁNTICOS === */
+    --background: var(--color-gray-darkest);
+  --foreground: var(--color-gray-fg);
+
+  --card: var(--color-gray-deep);
+  --card-foreground: var(--color-gray-fg);
+
+  --popover: var(--color-gray-deep);
+  --popover-foreground: var(--color-gray-fg);
+
+  --primary: var(--color-forest-green-dark);
+  --primary-foreground: var(--color-white);
+
+  --secondary: var(--color-deep-blue);
+  --secondary-foreground: var(--color-white);
+
+  --accent: var(--color-lime-green-dark);
+  --accent-foreground: var(--color-white);
+
+  --muted: var(--color-gray-800);
+  --muted-foreground: var(--color-gray-300);
+
+  --success: var(--color-success-dark);
+  --success-foreground: var(--color-gray-darkest);
+
+  --warning: var(--color-warning-dark);
+  --warning-foreground: var(--color-gray-darkest);
+
+  --error: var(--color-error-dark);
+  --error-foreground: var(--color-white);
+
+  --info: var(--color-info-dark);
+  --info-foreground: var(--color-gray-darkest);
+
+  --border: var(--color-gray-line);
+  --input: var(--color-gray-line);
+  --ring: var(--color-lime-green-dark);
+
+  /* === NAVBAR === */
+  --navbar-bg: var(--color-gray-950);
+  --navbar-text: var(--color-gray-100);
+  --navbar-link-hover-color: var(--color-lime-green);
+  --navbar-link-active-color: var(--color-lime-green);
+  --navbar-border-color: var(--color-gray-800);
+
+  /* === SUBMENU === */
+  --submenu-bg: var(--color-gray-950); /* MISMO COLOR QUE NAVBAR */
+  --submenu-text: var(--color-gray-100);
+  --submenu-text-muted: var(--color-gray-400);
+  --submenu-hover-bg: var(--color-gray-800);
+  --submenu-border-color: var(--color-gray-800);
+  --submenu-shadow: 0 10px 15px -3px hsl(var(--shadow-color) / 0.2), 0 4px 6px -4px hsl(var(--shadow-color) / 0.2);
+  --submenu-transition: all var(--transition-duration) var(--transition-timing);
+
+  /* === SOMBRAS MÁS INTENSAS PARA TEMA OSCURO === */
+  --shadow-strength: 0.1;
+  --shadow-sm: 0 1px 2px 0 hsl(var(--shadow-color) / var(--shadow-strength));
+  --shadow-md: 0 4px 6px -1px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 0.05)), 0 2px 4px -2px
+    hsl(var(--shadow-color) / calc(var(--shadow-strength) + 0.05));
+  --shadow-lg: 0 10px 15px -3px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 0.05)), 0 4px 6px -4px
+    hsl(var(--shadow-color) / calc(var(--shadow-strength) + 0.05));
+  --shadow-xl: 0 20px 25px -5px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 0.05)), 0 8px 10px -6px
+    hsl(var(--shadow-color) / calc(var(--shadow-strength) + 0.05));
+
+  /* === GRÁFICOS PARA TEMA OSCURO === */
+  --chart-1: 220 70% 50%;
+  --chart-2: 160 60% 45%;
+  --chart-3: 30 80% 55%;
+  --chart-4: 280 65% 60%;
+  --chart-5: 340 75% 55%;
+}
+
+/* ===== TEMA SISTEMA (hereda del preferido del usuario) ===== */
+@media (prefers-color-scheme: dark) {
+  :root:not(.light):not(.dark) {
+    /* Aplicar variables del tema oscuro cuando el sistema prefiere oscuro */
+    --background: var(--color-gray-950);
+    --foreground: var(--color-gray-50);
+    --card: var(--color-gray-900);
+    --card-foreground: var(--color-gray-50);
+    --primary: var(--color-lime-green);
+    --primary-foreground: var(--color-gray-950);
+    --muted: var(--color-gray-800);
+    --muted-foreground: var(--color-gray-400);
+    --border: var(--color-gray-800);
+
+    /* Navbar */
+    --navbar-bg: var(--color-gray-950);
+    --navbar-text: var(--color-gray-100);
+    --navbar-border-color: var(--color-gray-800);
+
+    /* Submenu */
+    --submenu-bg: var(--color-gray-950);
+    --submenu-text: var(--color-gray-100);
+    --submenu-text-muted: var(--color-gray-400);
+    --submenu-hover-bg: var(--color-gray-800);
+    --submenu-border-color: var(--color-gray-800);
+    --submenu-shadow: 0 10px 15px -3px hsl(var(--shadow-color) / 0.2), 0 4px 6px -4px hsl(var(--shadow-color) / 0.2);
+  }
+}
+
+  
+  
