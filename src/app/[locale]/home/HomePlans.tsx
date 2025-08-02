@@ -55,7 +55,7 @@ export default function HomePlans() {
   ]
 
   return (
-    <Section id="plans" className="bg-background">
+    <Section id="plans">
       <Container size="xlarge">
         <div className="text-center mb-16">
           <AnimatedElement animation="fade-in" delay={100}>
@@ -65,7 +65,7 @@ export default function HomePlans() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {plans.map((plan, index) => (
-            <AnimatedElement key={index} animation="slide-up" delay={200}>
+            <AnimatedElement key={index} animation="slide-up" delay={0.3 + index * 0.1}>
               <Card className={`p-8 relative ${plan.popular ? "ring-2 ring-primary shadow-xl scale-105" : ""}`}>
                 {plan.popular && (
                   <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-primary text-primary-foreground">

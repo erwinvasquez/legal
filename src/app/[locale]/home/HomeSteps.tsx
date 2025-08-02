@@ -38,7 +38,7 @@ export default function HomeSteps() {
   ]
 
   return (
-    <Section id="steps" className="bg-background py-12 sm:py-16">
+    <Section id="steps" className=" py-12 sm:py-16">
       <Container size="xlarge">
         <div className="text-center mb-12 sm:mb-16">
           <AnimatedElement animation="fade-in" delay={100}>

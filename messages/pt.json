@@ -1,327 +1,474 @@
 {
+  "Metadata": {
+    "title": "Energia Renovável e Soluções Sustentáveis - GreenEnergy Bolívia",
+    "description": "A GreenEnergy oferece soluções de energia renovável, solar, eólica e eficiência energética para residências e empresas na Bolívia. Junte-se à revolução verde e reduza sua pegada de carbono.",
+    "keywords": "energia renovável, energia solar, energia eólica, eficiência energética, soluções sustentáveis, Bolívia",
+    "author": "GreenEnergy Bolívia",
+    "publisher": "GreenEnergy Bolívia",
+    "robots": "index, follow",
+    "og:title": "Energia Renovável e Soluções Sustentáveis - GreenEnergy Bolívia",
+    "og:description": "A GreenEnergy oferece soluções de energia renovável, solar, eólica e eficiência energética para residências e empresas na Bolívia.",
+    "og:image": "https://greenenergy.com.bo/images/og-image.png",
+    "og:url": "https://greenenergy.com.bo",
+    "siteName": "GreenEnergy Bolívia",
+    "locale": "pt_BR"
+  },
+  "Schema": {
+    "@type": "Schema",
+    "availableLanguage": "Portuguese",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+591 - 78457304",
+      "contactType": "customer service",
+      "areaServed": "BO",
+      "availableLanguage": "Portuguese"
+    },
+    "mainEntityOfPage": {
+      "@type": "Organization",
+      "name": "GreenEnergy Bolivia",
+      "url": "https://greenenergy.com.bo",
+      "logo": "https://greenenergy.com.bo/logo.png",
+      "sameAs": ["https://www.facebook.com/greenenergybo", "https://www.instagram.com/greenenergybo"]
+    },
+    "product": {
+      "@type": "Product",
+      "name": "Painel Solar",
+      "description": "Painel solar de alta eficiência para aplicações residenciais e comerciais.",
+      "brand": "GreenEnergy",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://greenenergy.com.bo/panel-solar-300w",
+        "priceCurrency": "BOB",
+        "price": "1000",
+        "priceValidUntil": "2024-12-31"
+      }
+    },
+    "breadcrumbs": {
+      "home": "Início"
+    },
+    "dates": {
+      "sitePublished": "2023-01-01T00:00:00Z",
+      "lastModified": "Última atualização"
+    }
+  },
+  "Navbar": {
+    "home": "Início",
+    "features": "Funcionalidades",
+    "pricing": "Preços",
+    "contact": "Contato",
+    "products": "Produtos",
+    "projects": "Projetos",
+    "services": "Serviços",
+    "about-us": "Sobre Nós",
+    "technology": "Tecnologia",
+    "calculadora": "Cotizador",
+    "quote": "Cotizador",
+    "admin": "Administração",
+    "account": "Conta",
+    "cart": "Carrinho",
+    "platform": "Plataforma"
+  },
+  "NavbarSubmenu": {
+    "home": {
+      "title": "Bem-vindo ao seu sistema operacional jurídico",
+      "subtitle": "Projetado para simplificar fluxos de trabalho e capacitar escritórios de advocacia",
+      "hero": "Hero para escritórios legais",
+      "problems": "Problemas que resolvemos",
+      "how": "Como funciona",
+      "outcomes": "Resultados reais",
+      "plans": "Planos em destaque",
+      "cta": "Chamada final"
+    },
+    "features": {
+      "title": "Recursos da plataforma para escritórios de advocacia",
+      "subtitle": "Tudo o que sua equipe precisa para gerenciar casos com velocidade, automação e IA",
+      "caseManagement": "Gerenciamento de casos",
+      "autoTimeline": "Linha do tempo automática",
+      "aiChat": "Chat legal IA",
+      "letterGen": "Gerador de cartas",
+      "docViewer": "Visualizador de documentos",
+      "multiUser": "Controle multiusuário"
+    },
+    "pricing": {
+      "title": "Planos e preços",
+      "subtitle": "Escolha o plano que melhor se adapta ao seu escritório — opções mensais ou anuais disponíveis",
+      "comparison": "Comparação de planos",
+      "plans": "Planos mensais / anuais",
+      "faqs": "Perguntas de preços",
+      "cta": "Criar conta"
+    },
+    "contact": {
+      "title": "Contato e suporte",
+      "subtitle": "Encontre respostas, fale com nossa equipe ou obtenha ajuda técnica",
+      "form": "Formulário de contato",
+      "faq": "FAQ legal / técnica",
+      "companyInfo": "Informações da empresa"
+    }
+  },
+  "Home": {
+    "hero": {
+      "title": "Transforme sua documentação médica em argumentos legais claros e automatizados",
+      "subtitle": "A plataforma de inteligência artificial criada para escritórios jurídicos que litigam casos de lesões pessoais.",
+      "description": "Organiza, interpreta e redige para você — em minutos, não em horas.",
+      "primaryButton": "Solicite acesso gratuito",
+      "secondaryButton": "Veja como funciona"
+    },
+    "problems": {
+      "title": "Isso soa familiar? Isto é o que atrasa sua equipe jurídica toda semana.",
+      "subtitle": "Milhões em indenizações são atrasados (ou perdidos) devido a erros evitáveis que esta plataforma elimina.",
+      "card1": {
+        "title": "📁 Documentos desorganizados → Causa de erros legais",
+        "description": "PDFs, receitas e notas chegam por email, WhatsApp ou digitalizações. Perder um único documento pode desmontar sua estratégia."
+      },
+      "card2": {
+        "title": "⏰ Horas procurando dados → Tempo faturável perdido",
+        "description": "O que foi prescrito? Quando foi atendido? Que exame foi feito primeiro? Cada busca custa dinheiro e atrasa casos."
+      },
+      "card3": {
+        "title": "⚠️ Erros manuais → Argumentos legais enfraquecidos",
+        "description": "Datas mal interpretadas, medicamentos omitidos ou sequências médicas incorretas podem destruir um caso sólido."
+      },
+      "card4": {
+        "title": "📉 Processos ineficientes → Casos e receitas perdidos",
+        "description": "Enquanto você organiza documentos manualmente, concorrentes com IA estão fechando casos mais rápido e com melhores resultados."
+      }
+    },
+    "steps": {
+      "title": "Automação legal real desde o primeiro clique",
+      "mockupAlt": "Documento legal sendo gerado automaticamente",
+      "step1": {
+        "title": "Carregue tudo sem se preocupar com o formato",
+        "description": "PDFs desorganizados, fotos de receitas ou relatórios médicos:",
+        "detail": "A plataforma os classifica e lê para você. Sem organização manual, sem arquivos perdidos. Tudo é automaticamente organizado e fica pronto para analisar."
+      },
+      "step2": {
+        "title": "Peça à IA o que você precisa",
+        "description": "Perguntas em linguagem natural, com respostas precisas:",
+        "detail": "\"O que o médico prescreveu no dia do acidente?\" \"Quantos estudos foram feitos na primeira semana?\" Obtenha respostas instantâneas vinculadas ao documento original."
+      },
+      "step3": {
+        "title": "Baixe cartas médicas ou legais prontas para enviar",
+        "description": "Editáveis, completas e com todas as informações já analisadas:",
+        "detail": "Solicitações a hospitais, relatórios médicos ou cartas de início legal. Tudo pronto para assinar, enviar ou incorporar na ação judicial."
+      }
+    },
+    "scenarios": {
+      "title": "O que sua equipe jurídica pode conseguir em minutos (antes levava horas)",
+      "subtitle": "The platform's AI replaces hours of review, drafting and searching with instant precision.",
+      "item1": {
+        "title": "📌 Gerar uma carta médica em 2 minutos",
+        "description": "Antes: 30 minutos de revisão e redação manual. Agora: você seleciona o tipo, e a IA monta com seus dados.",
+        "timeLabel": "2 min"
+      },
+      "item2": {
+        "title": "🎯 Cronologia médica completa em 5 minutos",
+        "description": "Antes: Horas revisando documentos para criar linha do tempo. Agora: IA organiza automaticamente datas, tratamentos e evolução médica.",
+        "timeLabel": "5 min"
+      },
+      "item3": {
+        "title": "✅ Solicitação de informação hospitalar em 1 minuto",
+        "description": "Antes: Redigir cartas formais do zero. Agora: IA gera a solicitação completa com todos os requisitos legais.",
+        "timeLabel": "1 min"
+      },
+      "item4": {
+        "title": "⚡ Início de processo legal em 10 minutos",
+        "description": "Antes: Dias organizando provas e argumentos. Agora: IA estrutura tudo com dados médicos prontos para processar.",
+        "timeLabel": "10 min"
+      },
+      "cta": {
+        "title": "Ready to transform your legal practice?",
+        "description": "Join hundreds of law firms already using AI to win more cases in less time.",
+        "primaryButton": "Start Free Trial",
+        "secondaryButton": "Schedule Demo"
+      }
+    },
+    "plans": {
+      "title": "Planos pensados para escritórios jurídicos de todos os tamanhos",
+      "popular": "Mais Popular",
+      "planInicio": {
+        "name": "Plano Início",
+        "price": "$99/mês",
+        "feature1": "100 páginas/mês",
+        "feature2": "1 usuário",
+        "feature3": "IA médica legal",
+        "feature4": "Cartas limitadas",
+        "feature5": "Suporte básico"
+      },
+      "planEstudio": {
+        "name": "Plano Escritório",
+        "price": "$299/mês",
+        "feature1": "500 páginas/mês",
+        "feature2": "Até 3 usuários",
+        "feature3": "IA avançada",
+        "feature4": "Cartas ilimitadas",
+        "feature5": "Suporte prioritário"
+      },
+      "planLegal": {
+        "name": "Legal Max",
+        "price": "$599/mês",
+        "feature1": "Páginas ilimitadas",
+        "feature2": "10+ usuários",
+        "feature3": "IA + API externa",
+        "feature4": "Cartas personalizadas",
+        "feature5": "Suporte dedicado"
+      },
+      "selectPlan": "Selecionar Plano",
+      "compareAll": "Comparar todos os planos"
+    },
+    "cta": {
+      "title": "Faça seu escritório jurídico trabalhar como uma equipe legal aumentada por IA",
+      "subtitle": "Reduza tempos, ganhe precisão e foque no que importa: resolver casos.",
+      "primaryButton": "Crie sua conta gratuita",
+      "secondaryButton": "Agende uma demo personalizada"
+    }
+  },
+  "Auth": {
+    "myAccount": "Minha Conta",
+    "login": "Login",
+    "register": "Registrar",
+    "name": "Nome",
+    "namePlaceholder": "Digite seu nome",
+    "email": "Email",
+    "emailPlaceholder": "Digite seu email",
+    "password": "Senha",
+    "passwordPlaceholder": "Digite sua senha",
+    "loginButton": "Login",
+    "registerButton": "Registrar",
+    "loading": "Carregando...",
+    "orContinueWith": "ou continuar com",
+    "continueWithGoogle": "Continuar com o Google",
+    "noAccount": "Não tem uma conta?",
+    "registerNow": "Registre-se agora",
+    "alreadyHaveAccount": "Já tem uma conta?",
+    "loginNow": "Faça login agora",
+    "emailNotVerified": "Email não verificado",
+    "manageAccount": "Gerenciar Conta",
+    "logout": "Sair"
+  },
   "Account": {
-    "accountActivity": "Atividade da Conta",
-    "accountProvider": "Provedor da Conta",
-    "accountSettings": "Configurações da Conta",
-    "billing": "Faturamento",
-    "cancel": "Cancelar",
+    "myAccount": "Minha Conta",
+    "profileInformation": "Informações do Perfil",
+    "name": "Nome",
     "email": "E-mail",
-    "emailCannotBeChanged": "O endereço de e-mail não pode ser alterado",
+    "accountProvider": "Provedor da Conta",
     "emailPassword": "E-mail e Senha",
     "edit": "Editar",
-    "lastLogin": "Último acesso",
-    "myAccount": "Minha Conta",
-    "name": "Nome",
-    "notVerified": "Não Verificado",
-    "notifications": "Notificações",
-    "profile": "Perfil",
-    "profileInformation": "Informações do Perfil",
+    "cancel": "Cancelar",
     "saveChanges": "Salvar Alterações",
     "saving": "Salvando...",
-    "security": "Segurança"
+    "emailCannotBeChanged": "O endereço de e-mail não pode ser alterado",
+    "notVerified": "Não Verificado",
+    "accountSettings": "Configurações da Conta",
+    "profile": "Perfil",
+    "security": "Segurança",
+    "notifications": "Notificações",
+    "billing": "Faturamento",
+    "accountActivity": "Atividade da Conta",
+    "lastLogin": "Último acesso"
   },
   "Admin": {
     "adminPanel": "Administrador",
+    "welcome": "Bem-vindo",
     "dashboard": "Painel de Controle",
     "dashboardDesc": "Ver estatísticas gerais e métricas de desempenho",
-    "helpText": "Consulte nossa documentação para guias detalhados sobre como usar o painel de administração.",
-    "lastLogin": "Último Acesso",
-    "needHelp": "Precisa de Ajuda?",
-    "notifications": "Notificações",
-    "notificationsDesc": "Gerenciar notificações do sistema e de usuários",
-    "orders": "Pedidos",
-    "ordersDesc": "Acompanhar e gerenciar pedidos de clientes",
-    "products": "Produtos",
-    "productsDesc": "Adicionar, editar e gerenciar inventário de produtos",
-    "revenue": "Receita",
-    "settings": "Configurações",
-    "settingsDesc": "Configurar ajustes do sistema e da aplicação",
-    "totalOrders": "Total de Pedidos",
-    "totalProducts": "Total de Produtos",
-    "totalUsers": "Total de Usuários",
     "users": "Usuários",
     "usersDesc": "Gerenciar contas de usuário e permissões",
-    "viewDocs": "Ver Documentação",
-    "welcome": "Bem-vindo"
-  },
-  "Auth": {
-    "alreadyHaveAccount": "Já tem uma conta?",
-    "continueWithGoogle": "Continuar com o Google",
-    "email": "Email",
-    "emailNotVerified": "Email não verificado",
-    "emailPlaceholder": "Digite seu email",
-    "loading": "Carregando...",
-    "login": "Login",
-    "loginButton": "Login",
-    "loginNow": "Faça login agora",
-    "logout": "Sair",
-    "manageAccount": "Gerenciar Conta",
-    "myAccount": "Minha Conta",
-    "name": "Nome",
-    "namePlaceholder": "Digite seu nome",
-    "noAccount": "Não tem uma conta?",
-    "orContinueWith": "ou continuar com",
-    "password": "Senha",
-    "passwordPlaceholder": "Digite sua senha",
-    "register": "Registrar",
-    "registerButton": "Registrar",
-    "registerNow": "Registre-se agora"
+    "products": "Produtos",
+    "productsDesc": "Adicionar, editar e gerenciar inventário de produtos",
+    "orders": "Pedidos",
+    "ordersDesc": "Acompanhar e gerenciar pedidos de clientes",
+    "notifications": "Notificações",
+    "notificationsDesc": "Gerenciar notificações do sistema e de usuários",
+    "settings": "Configurações",
+    "settingsDesc": "Configurar ajustes do sistema e da aplicação",
+    "totalUsers": "Total de Usuários",
+    "totalProducts": "Total de Produtos",
+    "totalOrders": "Total de Pedidos",
+    "revenue": "Receita",
+    "lastLogin": "Último Acesso",
+    "needHelp": "Precisa de Ajuda?",
+    "helpText": "Consulte nossa documentação para guias detalhados sobre como usar o painel de administração.",
+    "viewDocs": "Ver Documentação"
   },
   "Footer": {
+    "contactUs": "Contate-nos",
     "address": "Endereço",
-    "allRightsReserved": "Todos os direitos reservados.",
+    "phone": "Telefone",
+    "email": "E-mail",
+    "hours": "Horário Comercial",
+    "followUs": "Siga-nos",
+    "solutions": "Soluções",
+    "sectors": "Setores",
     "company": "Empresa",
+    "support": "Suporte",
+    "allRightsReserved": "Todos os direitos reservados.",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço",
     "contact": {
       "address": {
         "building": "Green Tower, escritório 1707, andar 17",
-        "city": "Santa Cruz de la Sierra",
-        "street": "Av. San Martin rua G"
+        "street": "Av. San Martin rua G",
+        "city": "Santa Cruz de la Sierra"
       },
+      "phone": "+591 - 78457304",
       "email": "greenbolivia25@gmail.com",
       "hours": {
-        "saturday": "Sáb: 10h-14h",
-        "weekdays": "Seg-Sex: 9h-18h"
-      },
-      "phone": "+591 - 78457304"
+        "weekdays": "Seg-Sex: 9h-18h",
+        "saturday": "Sáb: 10h-14h"
+      }
     },
-    "contactUs": "Contate-nos",
-    "email": "E-mail",
-    "followUs": "Siga-nos",
-    "hours": "Horário Comercial",
     "links": {
-      "company": {
-        "about": "Sobre Nós",
-        "careers": "Carreiras",
-        "news": "Notícias",
-        "team": "Nossa Equipe"
-      },
-      "sectors": {
-        "commercial": "Comercial",
-        "industrial": "Industrial",
-        "public": "Setor Público",
-        "residential": "Residencial"
-      },
       "solutions": {
         "bipv": "Tecnologias BIPV",
         "photovoltaic": "Energia Fotovoltaica",
         "wind": "Energia Eólica"
+      },
+      "sectors": {
+        "residential": "Residencial",
+        "commercial": "Comercial",
+        "industrial": "Industrial",
+        "public": "Setor Público"
+      },
+      "company": {
+        "about": "Sobre Nós",
+        "team": "Nossa Equipe",
+        "careers": "Carreiras",
+        "news": "Notícias"
       },
       "support": {
         "contact": "Contate-nos",
         "faq": "Perguntas Frequentes",
         "resources": "Recursos"
       }
-    },
-    "phone": "Telefone",
-    "privacyPolicy": "Política de Privacidade",
-    "sectors": "Setores",
-    "solutions": "Soluções",
-    "support": "Suporte",
-    "termsOfService": "Termos de Serviço"
-  },
-  "Home": {
-    "compareAll": "Comparar todos os planos",
-    "cta": {
-      "primaryButton": "Crie sua conta gratuita",
-      "secondaryButton": "Agende uma demo personalizada",
-      "subtitle": "Reduza tempos, ganhe precisão e foque no que importa: resolver casos.",
-      "title": "Faça seu escritório jurídico trabalhar como uma equipe legal aumentada por IA"
-    },
-    "hero": {
-      "description": "Organiza, interpreta e redige para você — em minutos, não em horas.",
-      "primaryButton": "Solicite acesso gratuito",
-      "secondaryButton": "Veja como funciona",
-      "subtitle": "A plataforma de inteligência artificial criada para escritórios jurídicos que litigam casos de lesões pessoais.",
-      "title": "Transforme sua documentação médica em argumentos legais claros e automatizados"
-    },
-    "plans": {
-      "popular": "Mais Popular",
-      "planEstudio": {
-        "feature1": "500 páginas/mês",
-        "feature2": "Até 3 usuários",
-        "feature3": "IA avançada",
-        "feature4": "Cartas ilimitadas",
-        "feature5": "Suporte prioritário",
-        "name": "Plano Escritório",
-        "price": "$299/mês"
-      },
-      "planInicio": {
-        "feature1": "100 páginas/mês",
-        "feature2": "1 usuário",
-        "feature3": "IA médica legal",
-        "feature4": "Cartas limitadas",
-        "feature5": "Suporte básico",
-        "name": "Plano Início",
-        "price": "$99/mês"
-      },
-      "planLegal": {
-        "feature1": "Páginas ilimitadas",
-        "feature2": "10+ usuários",
-        "feature3": "IA + API externa",
-        "feature4": "Cartas personalizadas",
-        "feature5": "Suporte dedicado",
-        "name": "Legal Max",
-        "price": "$599/mês"
-      },
-      "title": "Planos pensados para escritórios jurídicos de todos os tamanhos"
-    },
-    "problems": {
-      "card1": {
-        "description": "PDFs, receitas e notas chegam por email, WhatsApp ou digitalizações. Perder um único documento pode desmontar sua estratégia.",
-        "title": "📁 Documentos desorganizados → Causa de erros legais"
-      },
-      "card2": {
-        "description": "O que foi prescrito? Quando foi atendido? Que exame foi feito primeiro? Cada busca custa dinheiro e atrasa casos.",
-        "title": "⏰ Horas procurando dados → Tempo faturável perdido"
-      },
-      "card3": {
-        "description": "Datas mal interpretadas, medicamentos omitidos ou sequências médicas incorretas podem destruir um caso sólido.",
-        "title": "⚠️ Erros manuais → Argumentos legais enfraquecidos"
-      },
-      "card4": {
-        "description": "Enquanto você organiza documentos manualmente, concorrentes com IA estão fechando casos mais rápido e com melhores resultados.",
-        "title": "📉 Processos ineficientes → Casos e receitas perdidos"
-      },
-      "subtitle": "Milhões em indenizações são atrasados (ou perdidos) devido a erros evitáveis que esta plataforma elimina.",
-      "title": "Isso soa familiar? Isto é o que atrasa sua equipe jurídica toda semana."
-    },
-    "scenarios": {
-      "cta": {
-        "description": "Join hundreds of law firms already using AI to win more cases in less time.",
-        "primaryButton": "Start Free Trial",
-        "secondaryButton": "Schedule Demo",
-        "title": "Ready to transform your legal practice?"
-      },
-      "item1": {
-        "description": "Antes: 30 minutos de revisão e redação manual. Agora: você seleciona o tipo, e a IA monta com seus dados.",
-        "timeLabel": "2 min",
-        "title": "📌 Gerar uma carta médica em 2 minutos"
-      },
-      "item2": {
-        "description": "Antes: Horas revisando documentos para criar linha do tempo. Agora: IA organiza automaticamente datas, tratamentos e evolução médica.",
-        "timeLabel": "5 min",
-        "title": "🎯 Cronologia médica completa em 5 minutos"
-      },
-      "item3": {
-        "description": "Antes: Redigir cartas formais do zero. Agora: IA gera a solicitação completa com todos os requisitos legais.",
-        "timeLabel": "1 min",
-        "title": "✅ Solicitação de informação hospitalar em 1 minuto"
-      },
-      "item4": {
-        "description": "Antes: Dias organizando provas e argumentos. Agora: IA estrutura tudo com dados médicos prontos para processar.",
-        "timeLabel": "10 min",
-        "title": "⚡ Início de processo legal em 10 minutos"
-      },
-      "subtitle": "The platform's AI replaces hours of review, drafting and searching with instant precision.",
-      "title": "O que sua equipe jurídica pode conseguir em minutos (antes levava horas)"
-    },
-    "selectPlan": "Selecionar Plano",
-    "steps": {
-      "detail": "A plataforma os classifica e lê para você. Sem organização manual, sem arquivos perdidos. Tudo é automaticamente organizado e fica pronto para analisar.",
-      "description": "PDFs desorganizados, fotos de receitas ou relatórios médicos:",
-      "mockupAlt": "Documento legal sendo gerado automaticamente",
-      "step1": {
-        "detail": "A plataforma os classifica e lê para você. Sem organização manual, sem arquivos perdidos. Tudo é automaticamente organizado e fica pronto para analisar.",
-        "description": "PDFs desorganizados, fotos de receitas ou relatórios médicos:",
-        "title": "Carregue tudo sem se preocupar com o formato"
-      },
-      "step2": {
-        "detail": "\"O que o médico prescreveu no dia do acidente?\" \"Quantos estudos foram feitos na primeira semana?\" Obtenha respostas instantâneas vinculadas ao documento original.",
-        "description": "Perguntas em linguagem natural, com respostas precisas:",
-        "title": "Peça à IA o que você precisa"
-      },
-      "step3": {
-        "detail": "Solicitações a hospitais, relatórios médicos ou cartas de início legal. Tudo pronto para assinar, enviar ou incorporar na ação judicial.",
-        "description": "Editáveis, completas e com todas as informações já analisadas:",
-        "title": "Baixe cartas médicas ou legais prontas para enviar"
-      },
-      "title": "Automação legal real desde o primeiro clique"
     }
   },
-  "Metadata": {
-    "author": "GreenEnergy Bolívia",
-    "description": "A GreenEnergy oferece soluções de energia renovável, solar, eólica e eficiência energética para residências e empresas na Bolívia. Junte-se à revolução verde e reduza sua pegada de carbono.",
-    "keywords": "energia renovável, energia solar, energia eólica, eficiência energética, soluções sustentáveis, Bolívia",
-    "locale": "pt_BR",
-    "og:description": "A GreenEnergy oferece soluções de energia renovável, solar, eólica e eficiência energética para residências e empresas na Bolívia.",
-    "og:image": "https://greenenergy.com.bo/images/og-image.png",
-    "og:title": "Energia Renovável e Soluções Sustentáveis - GreenEnergy Bolívia",
-    "og:url": "https://greenenergy.com.bo",
-    "publisher": "GreenEnergy Bolívia",
-    "robots": "index, follow",
-    "siteName": "GreenEnergy Bolívia",
-    "title": "Energia Renovável e Soluções Sustentáveis - GreenEnergy Bolívia"
-  },
-  "Navbar": {
-    "about-us": "Sobre Nós",
-    "account": "Conta",
-    "admin": "Administração",
-    "calculadora": "Cotizador",
-    "cart": "Carrinho",
-    "contact": "Contato",
-    "home": "Início",
-    "products": "Produtos",
-    "projects": "Projetos",
-    "quote": "Cotizador",
-    "services": "Serviços",
-    "technology": "Tecnologia"
-  },
   "Pages": {
-    "about-us": "Sobre Nós",
-    "admin": "Administração",
-    "calculadora": "Cotizador",
-    "contact": "Contato",
     "products": "Produtos",
-    "quote": "Calculadora",
-    "technology": "Tecnologia"
+    "quote": "Cotizador",
+    "about-us": "Sobre Nós",
+    "contact": "Contato",
+    "technology": "Tecnologia",
+    "calculadora": "Cotizador",
+    "admin": "Administração"
   },
-  "Schema": {
-    "@type": "Schema",
-    "availableLanguage": "Portuguese",
-    "breadcrumbs": {
-      "home": "Início"
+  "Sections": {
+    "home": "Início",
+    "about-us": "Nosotros",
+    "future-energy": "Beneficios",
+    "solutions": "Soluções",
+    "sectors": "Setores",
+    "pricing": "Preços",
+    "contact": "Contato",
+    "quote": "Cotizador"
+  },
+  "features": {
+    "intro": {
+      "title": "Uma plataforma que trabalha como parte de seu equipe legal",
+      "subtitle": "Explore cada uma das funções projetadas para digitalizar, automatizar e escalar a forma como sua empresa gerencia casos de lesões pessoais."
     },
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "areaServed": "BO",
-      "availableLanguage": "Portuguese",
-      "contactType": "customer service",
-      "telephone": "+591 - 78457304"
+    "caseManagement": {
+      "title": "Gestão de casos com estrutura legal e médica unificada",
+      "description": "Centralize expedientes, documentos, partes envolvidas e tarefas em um único sistema. Cada caso é estruturado para facilitar a análise legal e a tomada de decisões.",
+      "benefits": [
+        "Vista geral de cada caso (com timeline, partes e documentos)",
+        "Associação automática entre arquivos e pacientes",
+        "Sistema de etiquetas médicas e legais para filtrar informações relevantes",
+        "Histórico completo de interações e edições por usuário"
+      ]
     },
-    "dates": {
-      "lastModified": "Última atualização",
-      "sitePublished": "2023-01-01T00:00:00Z"
+    "timeline": {
+      "title": "Cronologia médica automática pronta para julgamento",
+      "description": "Cada documento carregado é analisado e localizado em uma linha do tempo estruturada. A plataforma detecta datas, diagnósticos, medicamentos e procedimentos chave.",
+      "benefits": [
+        "Ordem automática de eventos clínicos e jurídicos",
+        "Visualização editável para audiências ou perícias",
+        "Agrupamento por data, tipo de atendimento, especialidade médica",
+        "Ideal para explicar a evolução do dano a juízes ou seguradoras"
+      ]
     },
-    "mainEntityOfPage": {
-      "@type": "Organization",
-      "logo": "https://greenenergy.com.bo/logo.png",
-      "name": "GreenEnergy Bolivia",
-      "sameAs": ["https://www.facebook.com/greenenergybo", "https://www.instagram.com/greenenergybo"],
-      "url": "https://greenenergy.com.bo"
+    "legalChat": {
+      "title": "Consulte seus próprios arquivos como se estivesse falando com um especialista",
+      "description": "Um sistema de IA treinado especificamente para interpretar seus documentos. Você não precisa se lembrar onde está a informação, basta perguntar.",
+      "capabilities": [
+        "Responde com precisão a perguntas jurídicas ou médicas",
+        "Cita o documento fonte com cada resposta",
+        "Permite rastrear tratamentos, datas chave, medicamentos, lesões",
+        "Disponível em linguagem natural, sem comandos complexos"
+      ]
     },
-    "product": {
-      "@type": "Product",
-      "brand": "GreenEnergy",
-      "description": "Painel solar de alta eficiência para aplicações residenciais e comerciais.",
-      "name": "Painel Solar",
-      "offers": {
-        "@type": "Offer",
-        "price": "1000",
-        "priceCurrency": "BOB",
-        "priceValidUntil": "2024-12-31",
-        "url": "https://greenenergy.com.bo/panel-solar-300w"
+    "letterGenerator": {
+      "title": "Cartas automáticas, completas e prontas para assinatura",
+      "description": "Desde solicitações de informação até relatórios clínico-legais, gere cartas formais com um clique. Personalizáveis, baixáveis e com dados já processados.",
+      "types": [
+        "Solicitações hospitalares e seguradoras",
+        "Informes médicos preliminares",
+        "Cartas de intimação, início de reclamação ou contestações",
+        "Modelos personalizados de acordo com seu estilo"
+      ]
+    },
+    "viewer": {
+      "title": "Visualizador avançado de documentos com análise em tempo real",
+      "description": "Carregue qualquer arquivo (PDF, imagem, digitalização) e navegue por ele sem sair da plataforma. Com buscador semântico, destaque de termos chave e vínculo cruzado com outros módulos.",
+      "functions": [
+        "Busca por sintomas, medicamentos ou termos legais",
+        "Destaque de datas, nomes, diagnósticos, CID-10",
+        "Leitura tipo \"resumo automático\" por IA",
+        "Vista dividida para comparar arquivos"
+      ]
+    },
+    "multiUser": {
+      "title": "Colaboração segura entre advogados, assistentes e médicos",
+      "description": "Atribua acessos por função, limite permissões e supervisione a atividade da equipe. A plataforma permite trabalhar simultaneamente sem perder a rastreabilidade.",
+      "includes": [
+        "Funções predefinidas e configuráveis",
+        "Registro de ações por usuário (log jurídico)",
+        "Ferramentas para supervisão remota",
+        "Notificações por atividade relevante em casos atribuídos"
+      ]
+    },
+    "finalCTA": {
+      "title": "Um sistema pensado para equipes legais modernas",
+      "text": "Todas as funções estão integradas, pensadas para economizar tempo e evitar erros. Mais do que um software, é seu novo paralegal com superpoderes.",
+      "buttons": {
+        "try": "Solicitar acesso gratuito",
+        "demo": "Ver demo ao vivo"
       }
     }
   },
-  "Sections": {
-    "about-us": "Nosotros",
-    "contact": "Contato",
-    "future-energy": "Beneficios",
-    "home": "Início",
-    "pricing": "Preços",
-    "quote": "Cotizador",
-    "sectors": "Setores",
-    "solutions": "Soluções"
+  "Platform": {
+    "accessDenied": {
+      "title": "Acesso Negado",
+      "message": "Você não tem permissão para visualizar esta página ou seu ID de organização está ausente. Por favor, faça login com uma conta autorizada.",
+      "loginButton": "Ir para Login"
+    },
+    "sidebar": {
+      "dashboard": "Painel",
+      "cases": "Casos",
+      "settings": "Configurações"
+    },
+    "dashboard": {
+      "title": "Painel da Plataforma",
+      "totalCases": "Total de Casos Abertos",
+      "involvedPeople": "Pessoas Envolvidas",
+      "uploadedDocuments": "Documentos Carregados",
+      "recentActivity": "Atividade Recente"
+    },
+    "cases": {
+      "title": "Seus Casos",
+      "addNewCase": "Adicionar Novo Caso",
+      "caseCardTitle": "Caso {id}",
+      "caseCardDescription": "Resumo do caso {id}...",
+      "viewDetails": "Ver Detalhes"
+    },
+    "caseDetail": {
+      "title": "Detalhes do Caso: {caseId}",
+      "people": "Pessoas Envolvidas",
+      "documents": "Documentos",
+      "timeline": "Linha do Tempo",
+      "letters": "Cartas Geradas",
+      "aiChat": "Chat com IA",
+      "history": "Histórico de Ações"
+    }
   }
 }
 

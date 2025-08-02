@@ -38,15 +38,15 @@ export default function HomeProblems() {
   ]
 
   return (
-    <Section id="problems" className="bg-muted/30 py-12 sm:py-16">
+    <Section id="problems" className="py-12 sm:py-16">
       <Container size="xlarge">
         <div className="text-center mb-12 sm:mb-16">
-          <AnimatedElement animation="fade-in" delay={100}>
+          <AnimatedElement animation="fade-in" delay={0.1}>
             <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4 sm:mb-6">
               {t("problems.title")}
             </h2>
           </AnimatedElement>
-          <AnimatedElement animation="fade-in" delay={200}>
+          <AnimatedElement animation="fade-in" delay={0.2}>
             <p className="font-body text-lg sm:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
               {t("problems.subtitle")}
             </p>
@@ -55,7 +55,7 @@ export default function HomeProblems() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-8">
           {problems.map((problem, index) => (
-            <AnimatedElement key={index} animation="slide-up" delay={200}>
+            <AnimatedElement key={index} animation="slide-up" delay={0.3 + index * 0.1}>
               <Card className="p-6 sm:p-8 h-full hover:shadow-lg transition-all duration-300 hover:scale-[1.02] bg-background border-border/50 min-w-0 overflow-hidden">
                 <div className="flex flex-col space-y-4 sm:space-y-6">
                   <div className="w-12 h-12 sm:w-14 sm:h-14 bg-destructive/10 rounded-xl flex items-center justify-center flex-shrink-0">

@@ -10,6 +10,7 @@ import {
   type AnimationEasing,
   type AnimationDelay,
   DEFAULT_SCROLL_DETECTION,
+  getClosestTailwindDelay, // Ensure this is correctly imported
 } from "@/lib/animation-config"
 
 export interface AnimatedElementProps extends React.HTMLAttributes<HTMLDivElement> {
@@ -90,6 +91,14 @@ export interface AnimatedElementProps extends React.HTMLAttributes<HTMLDivElemen
  * >
  *   Contenido que se desliza hacia arriba con un retraso
  * </AnimatedElement>
+ *
+ * @example
+ * <AnimatedElement
+ *   animation="fade-in"
+ *   delay={0.2} // Interpreted as 200ms
+ * >
+ *   Contenido con un retraso de 0.2 segundos
+ * </AnimatedElement>
  */
 export const AnimatedElement = forwardRef<HTMLDivElement, AnimatedElementProps>(
   (
@@ -111,23 +120,25 @@ export const AnimatedElement = forwardRef<HTMLDivElement, AnimatedElementProps>(
     },
     ref,
   ) => {
-    // Si se proporciona un índice, utilizamos useStaggeredAnimation
-    // para calcular el retraso basado en el índice
-    let calculatedDelay: AnimationDelay | undefined = delay
+    let finalDelay: number | undefined = undefined
 
+    // If an index is provided, it takes precedence for calculating the delay
     if (index !== undefined) {
-      // Calculamos el retraso basado en el índice
       const delayValue = Math.min(index, maxItems) * staggerDelay
 
-      // Convertimos el valor numérico a la clase de retraso correspondiente
-      // Asegurándonos de que coincida con los valores permitidos en AnimationDelay
-      if (delayValue <= 100) calculatedDelay = 100
-      else if (delayValue <= 200) calculatedDelay = 200
-      else if (delayValue <= 300) calculatedDelay = 300
-      else if (delayValue <= 400) calculatedDelay = 400
-      else if (delayValue <= 500) calculatedDelay = 600
-      else if (delayValue <= 700) calculatedDelay = 800
-      else calculatedDelay = 1000
+      // Convert the numeric value to the corresponding delay class,
+      // ensuring it matches the allowed values in AnimationDelay
+      // Using getClosestTailwindDelay for consistency
+      finalDelay = getClosestTailwindDelay(delayValue)
+    } else if (delay !== undefined) {
+      // If no index, process the direct 'delay' prop
+      let delayInMs = delay
+      // Heuristic: if delay is a small positive number, assume it's in seconds and convert to ms
+      if (delay > 0 && delay < 10) {
+        delayInMs = delay * 1000
+      }
+      // Find the closest valid Tailwind delay value
+      finalDelay = getClosestTailwindDelay(delayInMs)
     }
 
     const animationRef = useScrollAnimation({
@@ -154,7 +165,7 @@ export const AnimatedElement = forwardRef<HTMLDivElement, AnimatedElementProps>(
           animation,
           `duration-${duration}`,
           `ease-${ease}`,
-          calculatedDelay && `delay-${calculatedDelay}`,
+          finalDelay !== undefined && `delay-${finalDelay}`,
           className,
         )}
         {...props}

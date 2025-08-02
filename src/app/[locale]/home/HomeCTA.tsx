@@ -11,7 +11,7 @@ export default function HomeCTA() {
   const t = useTranslations("Home")
 
   return (
-    <Section id="cta" className="bg-gradient-to-r from-primary to-primary/80">
+    <Section id="cta" fullWidth={true} heightType="content" className="relative w-screen bg-gradient-to-r from-primary to-primary/80">
       <Container size="xlarge">
         <div className="text-center text-white">
           <AnimatedElement animation="fade-in" delay={200}>

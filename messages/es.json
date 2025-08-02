@@ -1,4 +1,18 @@
 {
+  "Metadata": {
+    "title": "Energía Renovable y Soluciones Sostenibles - GreenEnergy Bolivia",
+    "description": "GreenEnergy ofrece soluciones de energía renovable, energía solar, energía eólica y eficiencia energética para hogares y empresas en Bolivia. Únete a la revolución verde y reduce tu huella de carbono.",
+    "keywords": "energía renovable, energía solar, energía eólica, eficiencia energética, soluciones sostenibles, Bolivia",
+    "author": "GreenEnergy Bolivia",
+    "publisher": "GreenEnergy Bolivia",
+    "robots": "index, follow",
+    "og:title": "Energía Renovable y Soluciones Sostenibles - GreenEnergy Bolivia",
+    "og:description": "GreenEnergy ofrece soluciones de energía renovable, energía solar, energía eólica y eficiencia energética para hogares y empresas en Bolivia.",
+    "og:image": "https://greenenergy.com.bo/images/og-image.png",
+    "og:url": "https://greenenergy.com.bo",
+    "siteName": "GreenEnergy Bolivia",
+    "locale": "es_BO"
+  },
   "Schema": {
     "availableLanguage": "Spanish",
     "contactPoint": {
@@ -13,10 +27,7 @@
       "name": "GreenEnergy Bolivia",
       "url": "https://greenenergy.com.bo",
       "logo": "https://greenenergy.com.bo/logo.png",
-      "sameAs": [
-        "https://www.facebook.com/greenenergybo",
-        "https://www.instagram.com/greenenergybo"
-      ]
+      "sameAs": ["https://www.facebook.com/greenenergybo", "https://www.instagram.com/greenenergybo"]
     },
     "product": {
       "@type": "Product",
@@ -39,54 +50,61 @@
       "lastModified": "Última actualización"
     }
   },
-  "Metadata": {
-    "title": "Energía Renovable y Soluciones Sostenibles - GreenEnergy Bolivia",
-    "description": "GreenEnergy ofrece soluciones de energía renovable, energía solar, energía eólica y eficiencia energética para hogares y empresas en Bolivia. Únete a la revolución verde y reduce tu huella de carbono.",
-    "keywords": "energía renovable, energía solar, energía eólica, eficiencia energética, soluciones sostenibles, Bolivia",
-    "author": "GreenEnergy Bolivia",
-    "publisher": "GreenEnergy Bolivia",
-    "robots": "index, follow",
-    "og:title": "Energía Renovable y Soluciones Sostenibles - GreenEnergy Bolivia",
-    "og:description": "GreenEnergy ofrece soluciones de energía renovable, energía solar, energía eólica y eficiencia energética para hogares y empresas en Bolivia.",
-    "og:image": "https://greenenergy.com.bo/images/og-image.png",
-    "og:url": "https://greenenergy.com.bo",
-    "siteName": "GreenEnergy Bolivia",
-    "locale": "es_BO"
-  },
   "Navbar": {
     "home": "Inicio",
-    "products": "Productos",
-    "account": "Cuenta",
-    "cart": "Carrito",
+    "features": "Funciones",
+    "pricing": "Precios",
     "contact": "Contacto",
-    "quote": "Cotizador",
+    "products": "Productos",
     "projects": "Proyectos",
     "services": "Servicios",
     "about-us": "Nosotros",
     "technology": "Tecnología",
     "calculadora": "Cotizador",
-    "admin": "Administración"
+    "quote": "Cotizador",
+    "admin": "Administración",
+    "account": "Cuenta",
+    "cart": "Carrito",
+    "platform": "Plataforma"
   },
-  "Sections": {
-    "home": "Inicio",
-    "about-us": "Nosotros",
-    "future-energy": "Beneficios",
-    "solutions": "Soluciones",
-    "sectors": "Sectores",
-    "pricing": "Precios",
-    "contact": "Contacto",
-    "quote": "Cotizador"
+  "NavbarSubmenu": {
+    "home": {
+      "title": "Bienvenido a tu sistema operativo legal",
+      "subtitle": "Diseñado para simplificar flujos de trabajo y empoderar a los estudios jurídicos",
+      "hero": "Hero para estudios legales",
+      "problems": "Problemas que resolvemos",
+      "how": "Cómo funciona",
+      "outcomes": "Resultados reales",
+      "plans": "Planes destacados",
+      "cta": "Llamado final"
+    },
+    "features": {
+      "title": "Funciones de la plataforma para estudios jurídicos",
+      "subtitle": "Todo lo que tu equipo necesita para gestionar casos con velocidad, automatización e IA",
+      "caseManagement": "Gestión de casos",
+      "autoTimeline": "Cronología automática",
+      "aiChat": "Chat legal IA",
+      "letterGen": "Generador de cartas",
+      "docViewer": "Visor de documentos",
+      "multiUser": "Control multiusuario"
+    },
+    "pricing": {
+      "title": "Planes y precios",
+      "subtitle": "Elige el plan que se adapte a tu estudio — opciones mensuales o anuales disponibles",
+      "comparison": "Comparación de planes",
+      "plans": "Planes mensuales / anuales",
+      "faqs": "Preguntas de precios",
+      "cta": "Crear cuenta"
+    },
+    "contact": {
+      "title": "Contacto y soporte",
+      "subtitle": "Encuentra respuestas, habla con nuestro equipo o recibe ayuda técnica",
+      "form": "Formulario de contacto",
+      "faq": "FAQ legal / técnica",
+      "companyInfo": "Información de la empresa"
+    }
   },
-  "Pages": {
-    "products": "Productos",
-    "quote": "Calcular",
-    "about-us": "Nosotros",
-    "contact": "Contacto",
-    "technology": "Tecnología",
-    "calculadora": "Cotizador",
-    "admin": "Administración"
-  },
- "Home": {
+  "Home": {
     "hero": {
       "title": "Convierte tu documentación médica en argumentos legales claros y automatizados",
       "subtitle": "La plataforma de inteligencia artificial creada para estudios jurídicos que litigan casos de lesiones personales.",
@@ -133,7 +151,7 @@
         "detail": "Solicitudes a hospitales, informes médicos o cartas de inicio legal. Todo listo para firmar, enviar o incorporar en la demanda."
       }
     },
-   "scenarios": {
+    "scenarios": {
       "title": "Lo que tu equipo legal puede lograr en minutos (antes tomaba horas)",
       "subtitle": "La IA de la plataforma reemplaza horas de revisión, redacción y búsqueda con precisión instantánea.",
       "item1": {
@@ -148,7 +166,7 @@
       },
       "item3": {
         "title": "✅ Solicitud de información hospitalaria en 1 minuto",
-        "description": "Antes: Redactar cartas formales desde cero. Ahora: IA genera la solicitud completa con todos los requisitos legales.",
+        "description": "Antes: Redactar cartas formalmente desde cero. Ahora: IA genera la solicitud completa con todos los requisitos legales.",
         "timeLabel": "1 min"
       },
       "item4": {
@@ -322,5 +340,135 @@
         "resources": "Recursos"
       }
     }
+  },
+  "Pages": {
+    "products": "Productos",
+    "quote": "Calcular",
+    "about-us": "Nosotros",
+    "contact": "Contacto",
+    "technology": "Tecnología",
+    "calculadora": "Cotizador",
+    "admin": "Administración"
+  },
+  "Sections": {
+    "home": "Inicio",
+    "about-us": "Nosotros",
+    "future-energy": "Beneficios",
+    "solutions": "Soluciones",
+    "sectors": "Sectores",
+    "pricing": "Precios",
+    "contact": "Contacto",
+    "quote": "Cotizador"
+  },
+  "features": {
+    "intro": {
+      "title": "Una plataforma que trabaja como parte de tu equipo legal",
+      "subtitle": "Explora cada una de las funciones diseñadas para digitalizar, automatizar y escalar la forma en que tu firma gestiona casos de lesiones personales."
+    },
+    "caseManagement": {
+      "title": "Gestión de casos con estructura legal y médica unificada",
+      "description": "Centraliza expedientes, documentos, partes involucradas y tareas en un solo sistema. Cada caso queda estructurado para facilitar el análisis legal y la toma de decisiones.",
+      "benefits": [
+        "Vista general de cada caso (con timeline, partes y documentos)",
+        "Asociación automática entre archivos y pacientes",
+        "Sistema de etiquetas médicas y legales para filtrar información relevante",
+        "Historial completo de interacciones y ediciones por usuario"
+      ]
+    },
+    "timeline": {
+      "title": "Cronología médica automática lista para juicio",
+      "description": "Cada documento cargado es analizado y ubicado en una línea de tiempo estructurada. La plataforma detecta fechas, diagnósticos, medicamentos y procedimientos clave.",
+      "benefits": [
+        "Orden automático de eventos clínicos y jurídicos",
+        "Visualización editable para audiencias o pericias",
+        "Agrupación por fecha, tipo de atención, especialidad médica",
+        "Ideal para explicar la evolución del daño ante jueces o aseguradoras"
+      ]
+    },
+    "legalChat": {
+      "title": "Consultá tus propios expedientes como si hablaras con un experto",
+      "description": "Un sistema de IA entrenado específicamente para interpretar tus documentos. No necesitas recordar dónde está la información, solo preguntá.",
+      "capabilities": [
+        "Responde con precisión a preguntas jurídicas o médicas",
+        "Cita el documento fuente con cada respuesta",
+        "Permite rastrear tratamientos, fechas clave, medicamentos, lesiones",
+        "Disponible en lenguaje natural, sin comandos complejos"
+      ]
+    },
+    "letterGenerator": {
+      "title": "Cartas automáticas, completas y listas para firma",
+      "description": "Desde solicitudes de información hasta informes clínico-legales, generá cartas formales con un clic. Personalizables, descargables y con datos ya procesados.",
+      "types": [
+        "Solicitudes hospitalarias y aseguradoras",
+        "Informes médicos preliminares",
+        "Cartas de intimación, inicio de reclamo o contestaciones",
+        "Plantillas personalizadas según tu estilo"
+      ]
+    },
+    "viewer": {
+      "title": "Visor avanzado de documentos con análisis en tiempo real",
+      "description": "Subí cualquier archivo (PDF, imagen, escaneo) y navegalo sin salir de la plataforma. Con buscador semántico, resaltado de términos clave y vínculo cruzado con otros módulos.",
+      "functions": [
+        "Búsqueda por síntomas, medicamentos o términos legales",
+        "Resaltado de fechas, nombres, diagnósticos, CIE-10",
+        "Lectura tipo \"resumen automático\" por IA",
+        "Vista dividida para comparar archivos"
+      ]
+    },
+    "multiUser": {
+      "title": "Colaboración segura entre abogados, asistentes y médicos",
+      "description": "Asigná accesos por rol, limitá permisos y supervisá la actividad del equipo. La plataforma permite trabajar en simultáneo sin perder trazabilidad.",
+      "includes": [
+        "Roles predeterminados y configurables",
+        "Registro de acciones por usuario (log jurídico)",
+        "Herramientas para supervisión remota",
+        "Notificaciones por actividad relevante en casos asignados"
+      ]
+    },
+    "finalCTA": {
+      "title": "Un sistema pensado para equipos legales modernos",
+      "text": "Todas las funciones están integradas, pensadas para ahorrar tiempo y evitar errores. Más que un software, es tu nuevo paralegal con superpoderes.",
+      "buttons": {
+        "try": "Solicitar acceso gratuito",
+        "demo": "Ver demo en vivo"
+      }
+    }
+  },
+  "Platform": {
+    "accessDenied": {
+      "title": "Acceso Denegado",
+      "message": "No tienes permiso para ver esta página o tu ID de organización no está presente. Por favor, inicia sesión con una cuenta autorizada.",
+      "loginButton": "Ir a Iniciar Sesión"
+    },
+    "sidebar": {
+      "dashboard": "Panel de Control",
+      "cases": "Casos",
+      "settings": "Configuración"
+    },
+    "dashboard": {
+      "title": "Panel de la Plataforma",
+      "totalCases": "Total de Casos Abiertos",
+      "involvedPeople": "Personas Involucradas",
+      "uploadedDocuments": "Documentos Subidos",
+      "recentActivity": "Actividad Reciente"
+    },
+    "cases": {
+      "title": "Tus Casos",
+      "addNewCase": "Agregar Nuevo Caso",
+      "caseCardTitle": "Caso {id}",
+      "caseCardDescription": "Resumen del caso {id}...",
+      "viewDetails": "Ver Detalles"
+    },
+    "caseDetail": {
+      "title": "Detalles del Caso: {caseId}",
+      "people": "Personas Involucradas",
+      "documents": "Documentos",
+      "timeline": "Cronología",
+      "letters": "Cartas Generadas",
+      "aiChat": "Chat con IA",
+      "history": "Historial de Acciones"
+    }
   }
 }
+
+

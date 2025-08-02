@@ -1,4 +1,18 @@
 {
+  "Metadata": {
+    "title": "Renewable Energy and Sustainable Solutions - GreenEnergy Bolivia",
+    "description": "GreenEnergy provides renewable energy solutions, solar, wind energy, and energy efficiency for homes and businesses in Bolivia. Join the green revolution and reduce your carbon footprint.",
+    "keywords": "renewable energy, solar energy, wind energy, energy efficiency, sustainable solutions, Bolivia",
+    "author": "GreenEnergy Bolivia",
+    "publisher": "GreenEnergy Bolivia",
+    "robots": "index, follow",
+    "og:title": "Renewable Energy and Sustainable Solutions - GreenEnergy Bolivia",
+    "og:description": "GreenEnergy provides renewable energy solutions, solar, wind energy, and energy efficiency for homes and businesses in Bolivia.",
+    "og:image": "https://greenenergy.com.bo/images/og-image.png",
+    "og:url": "https://greenenergy.com.bo",
+    "siteName": "GreenEnergy Bolivia",
+    "locale": "en_US"
+  },
   "Schema": {
     "availableLanguage": "English",
     "contactPoint": {
@@ -13,10 +27,7 @@
       "name": "GreenEnergy Bolivia",
       "url": "https://greenenergy.com.bo",
       "logo": "https://greenenergy.com.bo/logo.png",
-      "sameAs": [
-        "https://www.facebook.com/greenenergybo",
-        "https://www.instagram.com/greenenergybo"
-      ]
+      "sameAs": ["https://www.facebook.com/greenenergybo", "https://www.instagram.com/greenenergybo"]
     },
     "product": {
       "@type": "Product",
@@ -39,54 +50,61 @@
       "lastModified": "Last updated"
     }
   },
-  "Metadata": {
-    "title": "Renewable Energy and Sustainable Solutions - GreenEnergy Bolivia",
-    "description": "GreenEnergy provides renewable energy solutions, solar, wind energy, and energy efficiency for homes and businesses in Bolivia. Join the green revolution and reduce your carbon footprint.",
-    "keywords": "renewable energy, solar energy, wind energy, energy efficiency, sustainable solutions, Bolivia",
-    "author": "GreenEnergy Bolivia",
-    "publisher": "GreenEnergy Bolivia",
-    "robots": "index, follow",
-    "og:title": "Renewable Energy and Sustainable Solutions - GreenEnergy Bolivia",
-    "og:description": "GreenEnergy provides renewable energy solutions, solar, wind energy, and energy efficiency for homes and businesses in Bolivia.",
-    "og:image": "https://greenenergy.com.bo/images/og-image.png",
-    "og:url": "https://greenenergy.com.bo",
-    "siteName": "GreenEnergy Bolivia",
-    "locale": "en_US"
-  },
   "Navbar": {
     "home": "Home",
-    "products": "Products",
-    "account": "Account",
-    "cart": "Cart",
+    "features": "Features",
+    "pricing": "Pricing",
     "contact": "Contact",
-    "quote": "Quote",
+    "products": "Products",
     "projects": "Projects",
     "services": "Services",
     "about-us": "About Us",
     "technology": "Technology",
     "calculadora": "Quote",
-    "admin": "Admin"
-  },
-  "Sections": {
-    "home": "Home",
-    "about-us": "About Us",
-    "future-energy": "Benefits",
-    "solutions": "Solutions",
-    "sectors": "Sectors",
-    "pricing": "Pricing",
-    "contact": "Contact",
-    "quote": "Quote"
-  },
-  "Pages": {
-    "products": "Products",
     "quote": "Quote",
-    "about-us": "About Us",
-    "contact": "Contact",
-    "technology": "Technology",
-    "calculadora": "Quote",
-    "admin": "Admin"
+    "admin": "Admin",
+    "account": "Account",
+    "cart": "Cart",
+    "platform": "Platform"
   },
- "Home": {
+  "NavbarSubmenu": {
+    "home": {
+      "title": "Welcome to your legal operating system",
+      "subtitle": "Designed to simplify workflows and empower law firms",
+      "hero": "Hero for legal firms",
+      "problems": "Problems we solve",
+      "how": "How it works",
+      "outcomes": "Real-world outcomes",
+      "plans": "Highlighted plans",
+      "cta": "Final CTA"
+    },
+    "features": {
+      "title": "Platform features for legal firms",
+      "subtitle": "Everything your team needs to manage cases with speed, automation and AI",
+      "caseManagement": "Case management",
+      "autoTimeline": "Auto timeline",
+      "aiChat": "AI legal chat",
+      "letterGen": "Letter generator",
+      "docViewer": "Document viewer",
+      "multiUser": "Multi-user control"
+    },
+    "pricing": {
+      "title": "Plans and pricing",
+      "subtitle": "Choose the plan that fits your firm — monthly or yearly options available",
+      "comparison": "Plan comparison",
+      "plans": "Monthly / annual plans",
+      "faqs": "Pricing FAQs",
+      "cta": "Create account CTA"
+    },
+    "contact": {
+      "title": "Contact and support",
+      "subtitle": "Find answers, talk to our team, or get technical help",
+      "form": "Contact form",
+      "faq": "Legal / tech FAQ",
+      "companyInfo": "Company info"
+    }
+  },
+  "Home": {
     "hero": {
       "title": "Transform your medical documentation into clear and automated legal arguments",
       "subtitle": "The artificial intelligence platform created for law firms that litigate personal injury cases.",
@@ -322,8 +340,139 @@
         "resources": "Resources"
       }
     }
+  },
+  "Pages": {
+    "products": "Products",
+    "quote": "Quote",
+    "about-us": "About Us",
+    "contact": "Contact",
+    "technology": "Technology",
+    "calculadora": "Quote",
+    "admin": "Admin"
+  },
+  "Sections": {
+    "home": "Home",
+    "about-us": "About Us",
+    "future-energy": "Benefits",
+    "solutions": "Solutions",
+    "sectors": "Sectors",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "quote": "Quote"
+  },
+  "features": {
+    "intro": {
+      "title": "A platform that works as part of your legal team",
+      "subtitle": "Explore each of the functions designed to digitize, automate, and scale how your firm manages personal injury cases."
+    },
+    "caseManagement": {
+      "title": "Case management with unified legal and medical structure",
+      "description": "Centralize files, documents, involved parties, and tasks in a single system. Each case is structured to facilitate legal analysis and decision-making.",
+      "benefits": [
+        "Overview of each case (with timeline, parties, and documents)",
+        "Automatic association between files and patients",
+        "System of medical and legal tags to filter relevant information",
+        "Complete history of interactions and edits by user"
+      ]
+    },
+    "timeline": {
+      "title": "Automatic medical chronology ready for trial",
+      "description": "Every uploaded document is analyzed and placed on a structured timeline. The platform detects key dates, diagnoses, medications, and procedures.",
+      "benefits": [
+        "Automatic order of clinical and legal events",
+        "Editable visualization for hearings or expert opinions",
+        "Grouping by date, type of care, medical specialty",
+        "Ideal for explaining the evolution of damage to judges or insurers"
+      ]
+    },
+    "legalChat": {
+      "title": "Consult your own files as if talking to an expert",
+      "description": "An AI system specifically trained to interpret your documents. You don't need to remember where the information is, just ask.",
+      "capabilities": [
+        "Accurately answers legal or medical questions",
+        "Cites the source document with each answer",
+        "Allows tracking treatments, key dates, medications, injuries",
+        "Available in natural language, without complex commands"
+      ]
+    },
+    "letterGenerator": {
+      "title": "Automatic, complete letters ready for signature",
+      "description": "From information requests to medico-legal reports, generate formal letters with a click. Customizable, downloadable, and with already processed data.",
+      "types": [
+        "Hospital and insurer requests",
+        "Preliminary medical reports",
+        "Demand letters, claim initiation, or responses",
+        "Custom templates according to your style"
+      ]
+    },
+    "viewer": {
+      "title": "Advanced document viewer with real-time analysis",
+      "description": "Upload any file (PDF, image, scan) and navigate it without leaving the platform. With semantic search, key term highlighting, and cross-linking with other modules.",
+      "functions": [
+        "Search by symptoms, medications, or legal terms",
+        "Highlighting of dates, names, diagnoses, ICD-10",
+        "AI-powered \"automatic summary\" reading",
+        "Split view to compare files"
+      ]
+    },
+    "multiUser": {
+      "title": "Secure collaboration between lawyers, assistants, and doctors",
+      "description": "Assign access by role, limit permissions, and supervise team activity. The platform allows simultaneous work without losing traceability.",
+      "includes": [
+        "Predetermined and configurable roles",
+        "User action log (legal log)",
+        "Remote supervision tools",
+        "Notifications for relevant activity in assigned cases"
+      ]
+    },
+    "finalCTA": {
+      "title": "A system designed for modern legal teams",
+      "text": "All functions are integrated, designed to save time and prevent errors. More than software, it's your new paralegal with superpowers.",
+      "buttons": {
+        "try": "Request free access",
+        "demo": "See live demo"
+      }
+    }
+  },
+  "Platform": {
+    "accessDenied": {
+      "title": "Access Denied",
+      "message": "You do not have permission to view this page or your organization ID is missing. Please log in with an authorized account.",
+      "loginButton": "Go to Login"
+    },
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "cases": "Cases",
+      "settings": "Settings"
+    },
+    "dashboard": {
+      "title": "Platform Dashboard",
+      "totalCases": "Total Open Cases",
+      "involvedPeople": "Involved People",
+      "uploadedDocuments": "Uploaded Documents",
+      "recentActivity": "Recent Activity"
+    },
+    "cases": {
+      "title": "Your Cases",
+      "addNewCase": "Add New Case",
+      "caseCardTitle": "Case {id}",
+      "caseCardDescription": "Summary for case {id}...",
+      "viewDetails": "View Details"
+    },
+    "caseDetail": {
+      "title": "Case Details: {caseId}",
+      "people": "People Involved",
+      "documents": "Documents",
+      "timeline": "Timeline",
+      "letters": "Generated Letters",
+      "aiChat": "AI Chat",
+      "history": "Action History"
+    }
   }
 }
+
+
+
 
 
 

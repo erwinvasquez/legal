@@ -60,7 +60,7 @@ export default function HomeScenarios() {
         {/* 2x2 Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {scenarios.map((scenario, index) => (
-            <AnimatedElement key={index} animation="fade-in" delay={200}>
+            <AnimatedElement key={index} animation="fade-in" delay={0.3 + index * 0.1}>
             <div className="relative bg-card rounded-2xl p-6 lg:p-8 shadow-md border border-border/40 transform transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
               {/* Floating icon */}
               <div className="absolute -top-3 -left-3 w-14 h-14 bg-gradient-to-br from-primary to-primary/70 rounded-2xl flex items-center justify-center shadow-lg transform rotate-12 hover:rotate-0 transition-transform duration-500">

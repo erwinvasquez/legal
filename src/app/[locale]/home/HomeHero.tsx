@@ -16,7 +16,7 @@ export default function HomeHero() {
       fullWidth={true}
       noPadding={false}
       fullHeight={true}
-      className="relative bg-gradient-to-br from-primary/5 via-background to-secondary/5"
+      className="relative w-screen bg-gradient-to-br from-primary/5 via-background to-secondary/5"
     >
       <Container size="xlarge" className="relative z-10 flex flex-col items-center justify-center min-h-screen py-20">
         <div className="w-full flex flex-col items-center text-center space-y-8">
